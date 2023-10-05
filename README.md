@@ -6,6 +6,7 @@
 - [Criando o seu primeiro Repósitorio]()
 - [O que são Branches]()
 - [Trabalhando com versionamento]()
+- [Explorando o GitHub]()
 - [Próximos passos]()
 
 ---
