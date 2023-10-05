@@ -4,6 +4,10 @@
 
 O "commit" no Git é um comando usado para salvar as mudanças feitas em um repositório. Cada commit representa um ponto na linha do tempo do projeto e inclui um conjunto de alterações que podem ser acompanhadas e referenciadas posteriormente.
 
+### Fork
+
+Um "fork" no Git é a ação de criar uma cópia independente de um repositório Git existente. Essa cópia, chamada de "fork", é geralmente feita por um colaborador externo que deseja contribuir para o projeto original, mas não tem permissões diretas para modificar o repositório principal. Portanto, o fork permite que essa pessoa crie sua própria cópia do repositório, na qual ela tem controle total, e pode fazer alterações sem afetar diretamente o projeto original.
+
 ### Branch
 
 Um "branch" em Git é uma ramificação independente da linha principal do desenvolvimento. Ele permite que você trabalhe em novas funcionalidades ou correções de bugs sem afetar o código principal. Os ramos podem ser criados, mesclados e excluídos para gerenciar o fluxo de desenvolvimento.
