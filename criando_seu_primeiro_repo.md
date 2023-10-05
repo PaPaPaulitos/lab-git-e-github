@@ -87,3 +87,63 @@ Agora com os dados cadastrados conforme a necessidade podemos clicar no botão *
 ![Criando Repositorio](./Imagens/criando_repo_12.png)
 
 ---
+
+## Criando Repositório local e conectando ele ao GitHub
+
+- Crie uma pasta no seu computador com o nome do projeto
+
+- Entre na pasta, clique com o botão direito e clique em *Git Bash Here*.
+
+![Git Bash here](./Imagens/criando_repo_13.png)
+
+- Ela vai abrir essa tela.
+
+![Git Bash](./Imagens/criando_repo_14.png)
+
+- Para iniciar o *Repositório local* digite o seguinte comando:
+
+```bash
+git init
+```
+
+- Agora para conectar ele ao GitHub use o seguinte comando:
+
+> Faça o login do GitHub caso necessário
+
+```bash
+git remote add origin [LINK DO SEU REPOSITORIO]
+```
+
+- Adicione ao Repositorio para testa-lo
+
+![Git Bash](./Imagens/criando_repo_15.png)
+
+- Digite o seguinte comando para jogar as mudanças no *Repositório local*
+
+```bash
+git add .
+```
+
+- Digite uma mensagem para o *commit*
+
+> Um commit é a realização permanente de um conjunto de tentativas de alteração, marcando o fim de uma transação e fornecendo durabilidade às transações ACID.
+
+```bash
+git commit -m "DIGITE AQUI A SUA MENSAGEM"
+```
+
+- Envie o *commit* também para o GitHub
+
+```bash
+git push --set-upstream origin master
+```
+
+> Observação apartir do momento que você da o comando acima você só precisa digitar
+
+```bash
+git push
+```
+
+- Verifique o GitHub
+
+![Git Bash](./Imagens/criando_repo_16.png)
