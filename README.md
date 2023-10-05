@@ -10,6 +10,8 @@
 - [Comandos do Git](comandos_do_git.md)
 - [Aprendendo a documentar projetos](./aprendendo_a_documentar_projetos.md)
 
+> [Slides do curso](https://www.canva.com/design/DAFwaE2itBo/Un1MLNPkGpc_IC-TIySjAw/edit?utm_content=DAFwaE2itBo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ---
 
 ## Referencias
