@@ -2,15 +2,13 @@
 
 ## Súmario
 
+<img src="./Imagens/Git-e-GitHub.png" width="350px" />
+
 - [O que é Git e GitHub?](./o_que_git_e_github.md)
 - [Criando o seu primeiro Repósitorio](./criando_seu_primeiro_repo.md)
 - [Dicionario Git](./dicionario_git.md)
 - [Comandos do Git](comandos_do_git.md)
-- [O que são Branches]()
-- [Trabalhando com versionamento]()
-- [Aprendendo a documentar projetos]()
-- [Explorando o GitHub]()
-- [Próximos passos]()
+- [Aprendendo a documentar projetos](./aprendendo_a_documentar_projetos.md)
 
 ---
 
