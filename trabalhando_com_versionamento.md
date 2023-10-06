@@ -7,6 +7,8 @@
 git status
 ```
 
+![Lista de modificações](./Imagens/trabalhando_com_versionamento_1.png)
+
 ---
 
 ## Removendo todas alterações de um *Repositório Local*
@@ -21,19 +23,27 @@ git reset
 git log
 ```
 
+![Lista de Logs](./Imagens/trabalhando_com_versionamento_2.png)
+
+> O que está sublinhado em vermelho são os *ids* dos commits
+
 ## Voltando um commit temporariamente
 
 ```bash
-git checkout <id>
+git checkout [id]
 ```
 
-> Quando voltamos um commit temporariamente, nós não alteramos o repositório.
+![Voltando um commit temporariamente](./Imagens/trabalhando_com_versionamento_3.png)
+
+> Como podemos ver na imagem quando usamos esse comando, nós voltamos um commit, mas não removemos os commits depois dele.
 
 
 ## Deletando todos commits a partir de uma data
 
 ```bash
-git reset --hard <id>
+git reset --hard [id]
 ```
 
-> Nesse caso vamos voltar o repositório para o commit que selecionamos.
+![Voltando permanentemente um commit](./Imagens/trabalhando_com_versionamento_4.png)
+
+> Nesse caso vamos voltar o repositório para o commit que selecionamos, assim deletando os commits que foram feitos posteriormente a esse.
