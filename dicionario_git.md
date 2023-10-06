@@ -37,3 +37,16 @@ Um "branch" em Git é uma ramificação independente da linha principal do desen
 Esses são termos essenciais para entender o funcionamento básico do Git, uma poderosa ferramenta de controle de versão amplamente utilizada no desenvolvimento de software.
 
 ![Commit](./Imagens/Pull.png)
+
+## Pull Request
+
+Um "Pull Request" (ou PR) é uma solicitação feita por um colaborador para que suas alterações em um branch sejam incorporadas ao branch principal do repositório. É uma ferramenta essencial para o trabalho colaborativo no Git, pois permite que os colaboradores revisem, discutam e, eventualmente, aceitem ou rejeitem as alterações propostas antes de serem mescladas no branch principal. O Pull Request ajuda a manter um controle rigoroso sobre as contribuições e a qualidade do código.
+
+Este termo é crucial para entender como as contribuições são gerenciadas em projetos Git de código aberto e privados.
+
+![Pull Request](./Imagens/Pull%20Request.png)
+
+![Gudio Van Rossum](./Imagens/GuidoVanRossum.jpg)
+
+> Criador da linguagem de programação *Python*, considerado um ditador benevolente da linguagem, toma as decisões que decidem o rumo da sua criação, uma das ferramentas para isso é o *Pull Request*.
+> Guido deixou o seu cargo em Julho de 2018
