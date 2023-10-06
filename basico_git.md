@@ -72,11 +72,20 @@ git push [NOME DA BRANCH]
 
 ---
 
-## Atualizando o seu *Repositório Local* trazendo as modificações do *Repositório Remoto*
+## Atualizando o seu *Repositório Local* e *Diretório de arquivos* trazendo as modificações do *Repositório Remoto*
 
 ```bash
 git pull
 ```
+
+### Atualizando o seu *Repositório Local*  trazendo as modificações do *Repositório Remoto*
+
+```bash
+git fetch
+```
+
+> Para fazer o restante da atualização é só dar um `git merge` para jogar do *Repositório Local* para o *Diretório de arquivos*
+
 
 ### Atualizando o seu *Repositório Local* trazendo as modificações do *Repositório Remoto* com base em uma Branch
 
