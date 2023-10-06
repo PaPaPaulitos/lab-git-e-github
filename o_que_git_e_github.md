@@ -1,5 +1,11 @@
 # O que é Git e GitHub
 
+## O que é uma ferramenta de versionamento?
+
+Ferramentas de versionamento são ferramentas utilizadas pelo desenvolvedor para guardar versões do seu código caso algo dê errado, por exemplo quem nunca fez uma *Lista Encadeada* em **C** e no meio do código mudou algo que fez a lista para de funcionar?
+A melhor maneira de resolver esse problema é com uma ferramenta de versionamento que permite você restaurar um *commit* algo parecido com um check-point de um jogo.
+
+
 ## O que é Git?
 
 Git é um controlador de versão de código mais utilizado no mundo atual, o que Git é responsável por fazer versionamento de código local, criado em 2005 pelo **Linus Torvalds**,criador do Kernel do Linux, caso você não conheça ele e sua história assista o [documentário Revolution OS](https://www.youtube.com/watch?v=Z3f-M43DiD4).
