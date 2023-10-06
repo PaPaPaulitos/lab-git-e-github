@@ -2,6 +2,8 @@
 
 Já vimos esses comandos em [Criando seu primeiro repositório](./criando_seu_primeiro_repo.md), mas eles também vão estar aqui.
 
+![Básico de Git](./Imagens/basico_git.png)
+
 ---
 
 ## Para iniciar o *Repositório local* digite o seguinte comando:

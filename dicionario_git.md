@@ -12,9 +12,13 @@ Um "fork" no Git é a ação de criar uma cópia independente de um repositório
 
 Um "branch" em Git é uma ramificação independente da linha principal do desenvolvimento. Ele permite que você trabalhe em novas funcionalidades ou correções de bugs sem afetar o código principal. Os ramos podem ser criados, mesclados e excluídos para gerenciar o fluxo de desenvolvimento.
 
+![Criando uma Branch](./Imagens/trabalhando_com_branchs_1.png)
+
 ### Merge
 
 "Merge" é o processo de combinar as alterações de um branch em outro. Isso é comumente usado para incorporar o trabalho feito em um branch de desenvolvimento de volta ao branch principal. O Git tenta automaticamente fundir as alterações, mas conflitos podem ocorrer, exigindo intervenção manual.
+
+![Fazendo um Merge](./Imagens/trabalhando_com_branchs_2.png)
 
 ### Push
 
