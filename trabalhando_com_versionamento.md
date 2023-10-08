@@ -43,6 +43,18 @@ git checkout [id]
 ```bash
 git reset --hard [id]
 ```
+```bash
+git add .
+```
+```bash
+git commit -m "MENSAGEM DIZENDO QUE VOLTOU O COMMIT"
+```
+
+Agora vamos forçar o repositório remoto voltar também.
+
+```bash
+git push --force origin main
+```
 
 ![Voltando permanentemente um commit](./Imagens/trabalhando_com_versionamento_4.png)
 
