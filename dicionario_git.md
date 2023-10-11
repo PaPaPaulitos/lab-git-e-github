@@ -44,6 +44,9 @@ Um "Pull Request" (ou PR) é uma solicitação feita por um colaborador para que
 
 Este termo é crucial para entender como as contribuições são gerenciadas em projetos Git de código aberto e privados.
 
+> - [Clique aqui para ver mais detalhamente tudo sobre o funcionamento do Pull Request e suas regras](./pull_request.md)
+> - **Créditos ao Paulo Victor**
+
 ![Pull Request](./Imagens/Pull%20Request.png)
 
 ![Gudio Van Rossum](./Imagens/GuidoVanRossum.jpg)

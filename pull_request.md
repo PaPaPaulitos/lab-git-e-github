@@ -41,7 +41,7 @@ Integration_test: Resumo da tarefa.
 ![Exemplo de tarefa no Kanban Force](./Imagens/pr_kanban_example.png)
 
 Criando uma nova branch.
-![Criando nova branch](./Imagens/pr_creating_branch.png)
+![Criando nova branch](./Imagens/pr_creating_branch.png.png)
 
 Uma vez que a branch foi criada, podemos iniciar o desenvolvimento
 normalmente, como se estivéssemos na branch original, neste caso a main.
@@ -79,7 +79,7 @@ Abaixo temos a foto de PR:
 ![Foto de um PR](./Imagens/pr_sample1.png)
 
 Podemos ver que ele esta apontado para a branch main e foi criado com a
-branch pv-baseURL.
+**branch pv-baseURL**.
 Abaixo destas informações temos um campo para descrição com algumas informações sobre o PR,
 seu funcionamento e etc.
 A direita, em verde e vermelho podemos ver que este PR está apagando 3
@@ -112,9 +112,9 @@ Criar um PR é muito simples, bastando criar uma branch nova antes do início do
 Clique em "Compare e pull request"
 ![Foto de um PR](./Imagens/pr_new.png)
 
-Agora basta selecionar a branch de destino, neste caso a 'main' e a branch onde está o código deste PR, neste caso 'pv-pull-request'.
+Agora basta selecionar a branch de destino, neste caso a 'main' e a branch onde está o código deste PR, neste caso `pv-pull-request`.
 obs.: Por se tratar de um projeto simples, não foi utilizado nenhum tipo de convenção no nome desta branch.
-E no final, clicar em 'create pull request'.
+E no final, clicar em `create pull request`.
 ![Foto de um PR](./Imagens/pr_new2.png)
 
 Pronto! Agora o PR foi criado e já esta na lista, aguardando revisão dos outros programadores.
