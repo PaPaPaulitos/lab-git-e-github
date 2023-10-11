@@ -29,7 +29,7 @@ Resumidamente podemos usar:
 -   **chore**: (updating grunt tasks etc; no production code change)
 
 Sendo assim, com uma tarefa no Kanban Force conforme foto abaixo, um bom
-nome para uma nova **branch** seria: feat/imp2078/integration_test
+nome para uma nova **branch** seria: **feat/imp2078/integration_test**
 
 Feat: É a criação, ou seja, o projeto não tinha este recurso.
 
