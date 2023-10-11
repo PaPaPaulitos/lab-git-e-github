@@ -57,7 +57,6 @@ desenvolveu para o código original. A princípio parece que apenas
 burocratizamos o processo de enviar o que desenvolvemos, o que poderia
 ter sido feito através de commits direto na branch main, mas nem de
 longe é realmente isso que acontece.
-
 Um PR traz algumas vantagens de enorme valor, como:
 
 - **Identificação do Criador:** Exibe o autor do Pull Request (PR), oferecendo transparência sobre sua origem.
@@ -100,6 +99,7 @@ comentar algo sobre o PR.
 
 A foto abaixo mostra o que será alterado no código vigente caso este PR seja aprovado:
 ![Foto de um PR](./Imagens/pr_files_changed.png)
+
 O que esta em verde é a parte de código que será adicionada e o que está em vermelho, o que será removido do código vigente.
 
 Agora, como um projeto mostra a lista de PR:
@@ -116,3 +116,6 @@ Agora basta selecionar a branch de destino, neste caso a 'main' e a branch onde 
 obs.: Por se tratar de um projeto simples, não foi utilizado nenhum tipo de convenção no nome desta branch.
 E no final, clicar em 'create pull request'.
 ![Foto de um PR](./Imagens/pr_new2.png)
+
+Pronto! Agora o PR foi criado e já esta na lista, aguardando revisão dos outros programadores.
+![Foto de um PR](./Imagens/pr_new_list.png)
