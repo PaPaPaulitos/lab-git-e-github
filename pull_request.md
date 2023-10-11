@@ -1,35 +1,35 @@
 # Introdução
 
 Por questões de boas práticas no uso do versionamento de código, sempre que precisamos 
-alterar o código vigente, devemos criar uma $${\color{Blue}branch}$$ a partir deste 
+alterar o código vigente, devemos criar uma **branch** a partir deste 
 código vigente, geralmente com algo que identifique o tipo de tarefa que faremos, um 
 código único, geralmente de um processo Ágil como o Kanban e um resumo.
 
 Segundo o site [www.conventionalcommits.org](http://www.conventionalcommits.org), usando
- a padronização do commit para criação de $${\color{Blue}branches}$$, devemos usar
-a palavra $${\color{Blue}feature}$$ para a criação de um novo recurso ao nosso código.
+ a padronização do commit para criação de **branches**, devemos usar
+a palavra **feature** para a criação de um novo recurso ao nosso código.
 
 Resumidamente podemos usar:
 
--   $${\color{Blue}feat}$$: (new feature for the user, not a new feature for build
+-   **feat**: (new feature for the user, not a new feature for build
     script)*
 
--   $${\color{Blue}fix}$$: (bug fix for the user, not a fix to a build script)*
+-   **fix** (bug fix for the user, not a fix to a build script)*
 
--   $${\color{Blue}docs}$$: (changes to the documentation)*
+-   **docs**: (changes to the documentation)*
 
--   $${\color{Blue}styles}$$: (formatting, missing semi colons, etc; no production code
+-   **styles**: (formatting, missing semi colons, etc; no production code
     change)*
 
--   $${\color{Blue}refactor}$$: (refactoring production code, eg. renaming a variable)*
+-   **refactor**: (refactoring production code, eg. renaming a variable)*
 
--   $${\color{Blue}test}$$: (adding missing tests, refactoring tests; no production code
+-   **test**: (adding missing tests, refactoring tests; no production code
     change)*
 
--   $${\color{Blue}chore}$$: (updating grunt tasks etc; no production code change)*
+-   **chore**: (updating grunt tasks etc; no production code change)*
 
 Sendo assim, com uma tarefa no Kanban Force conforme foto abaixo, um bom
-nome para uma nova $${\color{Blue}branch}$$ seria: feat/imp2078/integration_test
+nome para uma nova **branch** seria: feat/imp2078/integration_test
 
 Feat: É a criação, ou seja, o projeto não tinha este recurso.
 
@@ -40,6 +40,7 @@ Integration_test: Resumo da tarefa.
 
 ![Exemplo de tarefa no Kanban Force](./Imagens/pr_kanban_example.png)
 
+Criando uma nova branch.
 ![Criando nova branch](./Imagens/pr_creating_branch.png)
 
 Uma vez que a branch foi criada, podemos iniciar o desenvolvimento
@@ -59,19 +60,19 @@ longe é realmente isso que acontece.
 
 Um PR traz algumas vantagens de enorme valor, como:
 
-- $${\color{Blue}Identificação do Criador}$$ Exibe o autor do Pull Request (PR), oferecendo transparência sobre sua origem.
+- **Identificação do Criador** Exibe o autor do Pull Request (PR), oferecendo transparência sobre sua origem.
 
-- $${\color{Blue}Branch de Destino}$$ Indica a branch na qual o PR será mesclado, mostrando claramente para qual ramificação as alterações estão direcionadas.
+- **Branch de Destino** Indica a branch na qual o PR será mesclado, mostrando claramente para qual ramificação as alterações estão direcionadas.
 
-- $${\color{Blue}Branch de Desenvolvimento}$$ Revela o nome da branch onde o novo código foi desenvolvido. Isso permite que outros programadores baixem e testem o código em suas próprias máquinas, sem comprometer a estabilidade do código original.
+- **Branch de Desenvolvimento** Revela o nome da branch onde o novo código foi desenvolvido. Isso permite que outros programadores baixem e testem o código em suas próprias máquinas, sem comprometer a estabilidade do código original.
 
-- $${\color{Blue}Descrição Detalhada}$$ Inclui um campo para a descrição da tarefa realizada, permitindo recursos avançados como links, fotos e vídeos para demonstrar seu funcionamento ou qualquer outro aspecto relevante para a tarefa em questão.
+- **Descrição Detalhada** Inclui um campo para a descrição da tarefa realizada, permitindo recursos avançados como links, fotos e vídeos para demonstrar seu funcionamento ou qualquer outro aspecto relevante para a tarefa em questão.
 
-- $${\color{Blue}Registro Cronológico de Alterações}$$ Apresenta, de forma cronológica, os commits e modificações no PR, incluindo alterações na descrição, conteúdo e outros elementos. Isso evita a possibilidade de ações maliciosas, como a troca do responsável pelo PR ou manipulação indevida de trechos de código.
+- **Registro Cronológico de Alterações** Apresenta, de forma cronológica, os commits e modificações no PR, incluindo alterações na descrição, conteúdo e outros elementos. Isso evita a possibilidade de ações maliciosas, como a troca do responsável pelo PR ou manipulação indevida de trechos de código.
 
-- $${\color{Blue}Visão Clara das Alterações}$$ Detalha as modificações propostas pelo PR no código original, facilitando a compreensão para todos os programadores envolvidos. Isso proporciona uma compreensão fácil e rápida do que será alterado.
+- **Visão Clara das Alterações** Detalha as modificações propostas pelo PR no código original, facilitando a compreensão para todos os programadores envolvidos. Isso proporciona uma compreensão fácil e rápida do que será alterado.
 
-- $${\color{Blue}Participações e Melhorias Colaborativas}$$ Permite que outros programadores façam questionamentos e sugiram melhorias. O responsável pelo PR pode implementar essas melhorias, e os demais programadores podem revisar novamente, gerando novos comentários. Esse processo iterativo continua até que o PR seja aprovado por todos os envolvidos e esteja pronto para ser mesclado no código principal.
+- **Participações e Melhorias Colaborativas** Permite que outros programadores façam questionamentos e sugiram melhorias. O responsável pelo PR pode implementar essas melhorias, e os demais programadores podem revisar novamente, gerando novos comentários. Esse processo iterativo continua até que o PR seja aprovado por todos os envolvidos e esteja pronto para ser mesclado no código principal.
 
 E muitas outras vantagens. Muitas mesmo!
 
