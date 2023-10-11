@@ -12,21 +12,21 @@ a palavra **feature** para a criação de um novo recurso ao nosso código.
 Resumidamente podemos usar:
 
 -   **feat**: (new feature for the user, not a new feature for build
-    script)*
+    script)
 
--   **fix** (bug fix for the user, not a fix to a build script)*
+-   **fix** (bug fix for the user, not a fix to a build script)
 
--   **docs**: (changes to the documentation)*
+-   **docs**: (changes to the documentation)
 
 -   **styles**: (formatting, missing semi colons, etc; no production code
-    change)*
+    change)
 
--   **refactor**: (refactoring production code, eg. renaming a variable)*
+-   **refactor**: (refactoring production code, eg. renaming a variable)
 
 -   **test**: (adding missing tests, refactoring tests; no production code
-    change)*
+    change)
 
--   **chore**: (updating grunt tasks etc; no production code change)*
+-   **chore**: (updating grunt tasks etc; no production code change)
 
 Sendo assim, com uma tarefa no Kanban Force conforme foto abaixo, um bom
 nome para uma nova **branch** seria: feat/imp2078/integration_test
@@ -60,19 +60,19 @@ longe é realmente isso que acontece.
 
 Um PR traz algumas vantagens de enorme valor, como:
 
-- **Identificação do Criador** Exibe o autor do Pull Request (PR), oferecendo transparência sobre sua origem.
+- **Identificação do Criador:** Exibe o autor do Pull Request (PR), oferecendo transparência sobre sua origem.
 
-- **Branch de Destino** Indica a branch na qual o PR será mesclado, mostrando claramente para qual ramificação as alterações estão direcionadas.
+- **Branch de Destino:** Indica a branch na qual o PR será mesclado, mostrando claramente para qual ramificação as alterações estão direcionadas.
 
-- **Branch de Desenvolvimento** Revela o nome da branch onde o novo código foi desenvolvido. Isso permite que outros programadores baixem e testem o código em suas próprias máquinas, sem comprometer a estabilidade do código original.
+- **Branch de Desenvolvimento:** Revela o nome da branch onde o novo código foi desenvolvido. Isso permite que outros programadores baixem e testem o código em suas próprias máquinas, sem comprometer a estabilidade do código original.
 
-- **Descrição Detalhada** Inclui um campo para a descrição da tarefa realizada, permitindo recursos avançados como links, fotos e vídeos para demonstrar seu funcionamento ou qualquer outro aspecto relevante para a tarefa em questão.
+- **Descrição Detalhada:** Inclui um campo para a descrição da tarefa realizada, permitindo recursos avançados como links, fotos e vídeos para demonstrar seu funcionamento ou qualquer outro aspecto relevante para a tarefa em questão.
 
-- **Registro Cronológico de Alterações** Apresenta, de forma cronológica, os commits e modificações no PR, incluindo alterações na descrição, conteúdo e outros elementos. Isso evita a possibilidade de ações maliciosas, como a troca do responsável pelo PR ou manipulação indevida de trechos de código.
+- **Registro Cronológico de Alterações:** Apresenta, de forma cronológica, os commits e modificações no PR, incluindo alterações na descrição, conteúdo e outros elementos. Isso evita a possibilidade de ações maliciosas, como a troca do responsável pelo PR ou manipulação indevida de trechos de código.
 
-- **Visão Clara das Alterações** Detalha as modificações propostas pelo PR no código original, facilitando a compreensão para todos os programadores envolvidos. Isso proporciona uma compreensão fácil e rápida do que será alterado.
+- **Visão Clara das Alterações:** Detalha as modificações propostas pelo PR no código original, facilitando a compreensão para todos os programadores envolvidos. Isso proporciona uma compreensão fácil e rápida do que será alterado.
 
-- **Participações e Melhorias Colaborativas** Permite que outros programadores façam questionamentos e sugiram melhorias. O responsável pelo PR pode implementar essas melhorias, e os demais programadores podem revisar novamente, gerando novos comentários. Esse processo iterativo continua até que o PR seja aprovado por todos os envolvidos e esteja pronto para ser mesclado no código principal.
+- **Participações e Melhorias Colaborativas:** Permite que outros programadores façam questionamentos e sugiram melhorias. O responsável pelo PR pode implementar essas melhorias, e os demais programadores podem revisar novamente, gerando novos comentários. Esse processo iterativo continua até que o PR seja aprovado por todos os envolvidos e esteja pronto para ser mesclado no código principal.
 
 E muitas outras vantagens. Muitas mesmo!
 
