@@ -108,4 +108,10 @@ Agora, como um projeto mostra a lista de PR:
 # Criando um Pull Request
 Criar um PR é muito simples, bastando criar uma branch nova antes do início do desenvolvimento, conforme dito no início deste documento, enviar para o GitHub normalmente (Git push) e depois acessar o GitHub do projeto com seu navegador de internet. Veja as fotos abaixo:
 
+Clique em "Compare e pull request"
+![Foto de um PR](./Imagens/pr_new.png)
 
+Agora basta selecionar a branch de destino, neste caso a 'main' e a branch onde está o código deste PR, neste caso 'pv-pull-request'.
+obs.: Por se tratar de um projeto simples, não foi utilizado nenhum tipo de convenção no nome desta branch.
+E no final, clicar em 'create pull request'.
+![Foto de um PR](./Imagens/pr_new2.png)
