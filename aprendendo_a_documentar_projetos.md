@@ -65,9 +65,9 @@ Nós usamos `>` antes de uma frase como `> Isso é uma observação!!!` .
 
 Para escrever um trecho de código como esse
 
-```python
-print("Hello Git!")
-```
+    ```python
+    print("Hello Git!")
+    ```
 
 Nós precisamos usar código entre ` ``` ` e colocar a linguagem logo após as 3 crases assim como:
 
