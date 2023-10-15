@@ -2,14 +2,15 @@
 
 ## Súmario
 
-<img src="./Imagens/Git-e-GitHub.png" width="350px" />
+<img src="./doc/Imagens/Git-e-GitHub.png" width="350px" />
 
-- [O que é Git e GitHub?](./o_que_git_e_github.md)
-- [Criando o seu primeiro Repósitorio](./criando_seu_primeiro_repo.md)
-- [Dicionario Git](./dicionario_git.md)
-- [Resumo sobre PR](./pull_request.md)
-- [Comandos do Git](comandos_do_git.md)
-- [Aprendendo a documentar projetos](./aprendendo_a_documentar_projetos.md)
+- [O que é Git e GitHub?](./doc/o_que_git_e_github.md)
+- [Criando o seu primeiro Repósitorio](./doc/criando_seu_primeiro_repo.md)
+- [Dicionario Git](./doc/dicionario_git.md)
+- [Resumo sobre PR](./doc/pull_request.md)
+- [Comandos básicod do Linux](comandos_basicos_linux.md)
+- [Comandos do Git](./doc/comandos_do_git.md)
+- [Aprendendo a documentar projetos](./doc/aprendendo_a_documentar_projetos.md)
 
 
 > [Slides do curso](https://www.canva.com/design/DAFwaE2itBo/Un1MLNPkGpc_IC-TIySjAw/edit?utm_content=DAFwaE2itBo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
