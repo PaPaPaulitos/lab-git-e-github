@@ -8,7 +8,7 @@
 - [Criando o seu primeiro Repósitorio](./doc/criando_seu_primeiro_repo.md)
 - [Dicionario Git](./doc/dicionario_git.md)
 - [Resumo sobre PR](./doc/pull_request.md)
-- [Comandos básicod do Linux](comandos_basicos_linux.md)
+- [Comandos básicos do Linux](./doc/comandos_basicos_linux.md)
 - [Comandos do Git](./doc/comandos_do_git.md)
 - [Aprendendo a documentar projetos](./doc/aprendendo_a_documentar_projetos.md)
 
