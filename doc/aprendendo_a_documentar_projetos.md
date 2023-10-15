@@ -17,12 +17,11 @@ Então no começo dos anos 2000 os desenvolvedores irritados com o tempo que era
 
 Existem diversas ferramentas para documentar e a documentação deve ser feita a partir da escolha da equipe, segue algumas ferramentas de documentação.
 
-- Notion
-- Obsidian
-- Confluence
-- BookStack
-- GitHub
-- Discord
+- [Notion](https://www.notion.so/pt-br/product?fredir=1)
+- [Obsidian](https://obsidian.md)
+- [Confluence](https://www.atlassian.com/software/confluence)
+- [BookStack](https://www.bookstackapp.com)
+- [GitBook](https://www.gitbook.com/?utm_source=content&utm_medium=trademark&utm_campaign=tLcRoAdw9BYwwpba4ZAD)
 
 ## Como documentar
 
