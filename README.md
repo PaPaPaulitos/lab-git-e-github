@@ -11,7 +11,7 @@
 - [Comandos básicos do Linux](./doc/comandos_basicos_linux.md)
 - [Comandos do Git](./doc/comandos_do_git.md)
 - [Aprendendo a documentar projetos](./doc/aprendendo_a_documentar_projetos.md)
-- [Issue List]()
+- [Issues]()
 
 
 > [Slides do curso](https://www.canva.com/design/DAFwaE2itBo/Un1MLNPkGpc_IC-TIySjAw/edit?utm_content=DAFwaE2itBo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
