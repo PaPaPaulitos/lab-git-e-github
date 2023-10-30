@@ -13,7 +13,6 @@
 - [Aprendendo a documentar projetos](./doc/aprendendo_a_documentar_projetos.md)
 - [Issues](./doc/issues.md)
 
-
 > [Slides do curso](https://www.canva.com/design/DAFwaE2itBo/Un1MLNPkGpc_IC-TIySjAw/edit?utm_content=DAFwaE2itBo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
