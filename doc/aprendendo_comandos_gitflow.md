@@ -94,3 +94,7 @@ E para finaliza-lô, executaremos o seguinte comando:
 ### ´git flow hotfix finish -n 'nome do hotfix'´
 
 Após executar o comando, automáticamente a branch será fechada e ´MERGEADA´ nas suas branches em uso ´MASTER´ e ´DEVELOP´.
+
+# ARVORE DO GIT FLOW
+
+![ÁRVORE-GIT-FLOW](./Imagens/arvore%20git%20flow%20(1).png)
