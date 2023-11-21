@@ -8,38 +8,40 @@
 - master - Ambiente de produção
 - develop - Ambiente de Desenvolvimento
 
-´Após isso já estamos prontos para utulizar os comandos git flow em nosso repositório´.
+
+
+`Após isso já estamos prontos para utulizar os comandos git flow em nosso repositório`.
 
 ## Como Iniciar uma Feature ?
 
 Para iniciar uma Feature usaremos o seguintes comando
 
-### ´git flow feature start 'nome da feature'´
+### `git flow feature start 'nome da feature'`
 
-Após executar esse comando, será criando uma branch ´LOCAL´ baseada na develop para que você realize as alterações necessária, como na imagem Abaixo:
+Após executar esse comando, será criando uma branch `LOCAL` baseada na develop para que você realize as alterações necessária, como na imagem Abaixo:
 
 ![Feature](./Imagens//Feat%20+%20DEvelop%20(1).png)
 
-Depois de ralizarmos todas as alterações, devemos finalizar a ´feature´, para finaliza-la usaremos os  seguintes comandos:
+Depois de ralizarmos todas as alterações, devemos finalizar a `feature`, para finaliza-la usaremos os  seguintes comandos:
 
-- ´git add .´ -  como vimos anteriormente nos comandos básicos de git.
+- `git add .` -  como vimos anteriormente nos comandos básicos de git.
 
-- ´git commit -m ""´ -  que também vimos anteriormente.
+- `git commit -m ""` -  que também vimos anteriormente.
 
 ## Como Finalizar uma Feature ?
 
 Para finalizarmos, utilizaremos o seguinte comando
 
-### ´git flow feature finsh  'nome da feature'´
+### `git flow feature finsh  'nome da feature'`
 
-Após executar este comando, a branch ´LOCAL´ criada será deletada e será feito o ´MERGE´ na branch ´DEVELOP´ e você será redirecionado automáticamente
-para a branch ´DEVELOP´
+Após executar este comando, a branch `LOCAL` criada será deletada e será feito o `MERGE` na branch `DEVELOP` e você será redirecionado automáticamente
+para a branch `DEVELOP`
 
 ## E como geramos uma versão do nosso código ?
 
 Para gerarmos uma versão de produção do nosso código, utilizaremos o seguinto comando
 
-### ´git flow release start 'nome da release'´
+### `git flow release start 'nome da release'`
 
 Ao executar essa esse comando será iniciando uma branch, como demostrado abaixo:
 
@@ -50,15 +52,15 @@ Até aqui tudo certo?!!
 Agora precisamos publicar essa versão, Para isso, utilizamos o seguinte comando:
 
 
-### ´git flow release public 'nome da release'´
+### `git flow release public 'nome da release'`
 
-Após executado, ele publica a release no repositório remoto, tornando-a uma candidata e consequentemente realizar ´DEPLOY´ em ´PRÉ-PROD´
+Após executado, ele publica a release no repositório remoto, tornando-a uma candidata e consequentemente realizar `DEPLOY` em `PRÉ-PROD`
 
 > AGORA PRECISAMOS FINALIZAR UMA VERSÃO
 
 Para isso utilizamos o seguinte comando
 
-### ´git flow releaser finish 'versao'´
+### `git flow releaser finish 'versao'`
 
 
 No momento que finalizar, o git abre em sequência três editores de texto:
@@ -75,25 +77,25 @@ Sabemos que é muito normal subirmos códigos com erro em produção, pensando n
 
 > E para isso, usamos o seguinte comando.
 
-### ´git flow hotfix start 'nome do hotfix'´
+### `git flow hotfix start 'nome do hotfix'`
 
-Após o comando ser executado, é aberto uma branch ´HOTFIX´, como vemos na imagem abaixo:
+Após o comando ser executado, é aberto uma branch `HOTFIX`, como vemos na imagem abaixo:
 
 ![HotFix](./Imagens/Master%20+%20Hotfix%20+%20Develop%20(1).png)
 
 Nessa branch você corrigirá todos os erros encontrados em produção e após isso você irá fecha-lá, mas ates exxecutará os seguintes comandos:
 
-- ´git add .´ -  como vimos anteriormente nos comandos básicos de git.
+- `git add .` -  como vimos anteriormente nos comandos básicos de git.
 
-- ´git commit -m ""´ -  que também vimos anteriormente.
+- `git commit -m ""` -  que também vimos anteriormente.
 
-> AGORA SIM PODEMOS FINALIZAR NOSSO ´HOTFIX´
+> AGORA SIM PODEMOS FINALIZAR NOSSO `HOTFIX`
 
 E para finaliza-lô, executaremos o seguinte comando:
 
-### ´git flow hotfix finish -n 'nome do hotfix'´
+### `git flow hotfix finish -n 'nome do hotfix'`
 
-Após executar o comando, automáticamente a branch será fechada e ´MERGEADA´ nas suas branches em uso ´MASTER´ e ´DEVELOP´.
+Após executar o comando, automáticamente a branch será fechada e `MERGEADA` nas suas branches em uso `MASTER` e `DEVELOP`.
 
 # ARVORE DO GIT FLOW
 
