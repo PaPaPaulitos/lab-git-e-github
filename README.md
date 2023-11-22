@@ -18,8 +18,10 @@
 
 Feito por Paulo Ricardo Mesquita Rosa Santos
 
-Colaboração Marcos Paulo Meireles
-
+Colaboração 
+- Marcos Paulo Meireles
+- Victor Glicerio
+- Paulo Vitor
 
 ---
 
