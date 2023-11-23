@@ -20,7 +20,7 @@ Feito por Paulo Ricardo Mesquita Rosa Santos
 
 Colaboração 
 - Marcos Paulo Meireles
-- Victor Glicerio
+- Victor José Glicério
 - Paulo Vitor
 
 ---
